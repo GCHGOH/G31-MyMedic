@@ -98,7 +98,8 @@ public class ExportData extends AppCompatActivity {
     // Generate the PDF using the retrieved data
     private String generatePdf(List<String> data, String userName, String userPhone, String userEmail) {
         try {
-            String filePath = Environment.getExternalStorageDirectory() + "/"+userName+"_MedicationReport";
+            String trimmedUsername = userName.replaceAll("\\s", "");
+            String filePath = Environment.getExternalStorageDirectory() + "/"+trimmedUsername+"_MedicationReport.pdf";
 
             // Open a new PDF file
             Document document = new Document(PageSize.A4);
