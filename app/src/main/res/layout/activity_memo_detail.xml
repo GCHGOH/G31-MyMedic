@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MemoDetail">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/memo_detail_background"
+        android:alpha="0.7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+
+            >
+
+            <TextView
+                android:id="@+id/memoPageBigTitle"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:gravity="center"
+                android:paddingBottom="50sp"
+                android:text="\nMemo Detail"
+                android:fontFamily="cursive"
+                android:textColor="#040B43"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:background= "@drawable/memo_detail_title_background2"
+                android:alpha="0.7"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10sp"
+                android:paddingBottom="50sp"
+                android:background="@drawable/text_view_border_line"
+                >
+
+                <TextView
+                    android:id="@+id/memoTitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Memo Title: "
+                    android:textColor="#2A3DDD"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-condensed"/>
+                <TextView
+                    android:id="@+id/memoTitle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Memo Title"
+                    android:textColor="#2A3DDD"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-condensed"/>
+                <EditText
+                    android:id="@+id/editMemoTitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Memo Title"
+                    android:textColor="#2A3DDD"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:visibility="gone"
+                    android:enabled="false" />
+
+                <TextView
+                    android:id="@+id/createdTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Created Time"
+                    android:textColor="#2A3DDD"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10sp"
+                android:text="Content:"
+                android:textColor="#2A3DDD"
+                android:paddingTop="10sp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <TextView
+                android:id="@+id/contentDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+
+                android:textSize="15sp"
+                android:textColor="#394bdf"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+            <EditText
+                android:id="@+id/editContentDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Content"
+                android:textSize="15sp"
+                android:textColor="#394bdf"
+                android:fontFamily="sans-serif-condensed"
+                android:visibility="gone"
+                android:enabled="false" />
+
+
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/editContentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end"
+        app:srcCompat="@drawable/edit"
+        android:contentDescription="Edit Memo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:backgroundTint="#ED96DAE3"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

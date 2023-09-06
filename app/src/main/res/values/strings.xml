@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MAD Assignment2</string>
+    <string-array name="frequency_values">
+        <item>Dose</item>
+        <item>Portion</item>
+        <item>Quantity</item>
+        <item>Spoon</item>
+        <item>Slug</item>
+        <!-- Add more items as needed -->
+    </string-array>
+
+    <!--Appointment,Consulter Detail, Medication Reminder -->
+    <string name="add_consulter">Add Consulter</string>
+    <string name="bt_addConsulter">Done</string>
+    <string name="consulter_name">Consulter Name:</string>
+    <string name="et_consulter"> </string>
+    <string name="consulter_address">Consulter Address:</string>
+    <string name="et_address"> </string>
+    <string name="hint_name"> Name </string>
+    <string name="hint_address"> Address </string>
+    <string name="pic_desc"> Display Picture </string>
+
+    <string name="add_appointment"> Add Appointment </string>
+    <string name="appointment_doc"> Appointment Consultant: </string>
+    <string name="appointment_date"> Appointment Date: </string>
+    <string name="appointment_time"> Appointment Time: </string>
+    <string name="bt_addAppointment">Finish</string>
+    <string name="hint_date"> Date </string>
+    <string name="hint_time"> Time </string>
+
+    <string name="Reminder"> Add Reminder</string>
+    <string name="reminder_med"> Reminder for Medicine: </string>
+    <string name="hint_med"> Medicine Name </string>
+    <string name="bt_reminder"> Add Reminder </string>
+
+    <string name="map_api">AIzaSyAsgECnNt8XYnHZSUOjKAMDqdwNXlvWPJk</string>
+    <!--End Appointment,Consulter Detail, Medication Reminder -->
+
+</resources>

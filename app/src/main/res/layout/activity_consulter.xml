@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".Consulter">
+
+    <TextView
+        android:id="@+id/c_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/add_consulter"
+        android:textColor="@color/title_color"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:textAllCaps="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="202dp">
+
+        <LinearLayout
+            android:layout_width="210dp"
+            android:layout_height="161dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/c_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/consulter_name"
+                android:textColor="@color/title_color"
+
+                />
+
+            <EditText
+                android:id="@+id/et_consulter"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:hint="@string/hint_name"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text="@string/et_consulter"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/consulter_address"
+                android:textColor="@color/title_color" />
+
+            <EditText
+                android:id="@+id/et_address"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:hint="@string/hint_address"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text="@string/et_address"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="163dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/display_pic"
+                android:layout_width="157dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/picture"
+                android:contentDescription="@string/pic_desc" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_addConsulter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="@string/bt_addConsulter"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/result_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" " />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable-v24/baseline_add_24.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable-v24/baseline_clear_24.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable-v24/baseline_search_24.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable-v24/bills_img_background.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/bg.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/bills_img_background.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/buttonstyle.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/custom_edittext.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/entertainment_img_background.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/general_img_background.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/gradientbackground.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/grocery_img_background.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_add.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_baseline_error_24.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_baseline_medical_services_24.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_baseline_notes_24.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_delete.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_empty.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_home.xml" value="0.20462962962962963" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_logout.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_pharmacy.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_profile.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/ic_record.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/memo_textbox_background.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/menu_bg.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/rounded_rectangle.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/shopping_ing_background.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/text_view_border_line.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/drawable/transport_ing_background.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/layout/activity_add_medicine.xml" value="0.4948630136986301" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/layout/activity_add_new_memo.xml" value="0.1458966565349544" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/layout/activity_export_data.xml" value="0.1458966565349544" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/layout/activity_main.xml" value="0.1458966565349544" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/layout/activity_main_page.xml" value="0.2" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/layout/activity_nearby_pharmacy.xml" value="0.1458966565349544" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/layout/login.xml" value="0.1458966565349544" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/layout/medicinelist.xml" value="0.264" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/layout/myrow.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/chenh/OneDrive/Desktop/MADAssignment30/MADAssignment30/app/src/main/res/menu/my_menu.xml" value="0.2953846153846154" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
